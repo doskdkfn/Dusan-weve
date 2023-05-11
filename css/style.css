@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+div, ul, li {
+    list-style: none;
+}
+
+/******************* 웹 전체 사이즈 **********************/
+
+#web-size {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/******************* 웹 헤더 영역 **********************/
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hd-menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hd-menu > li {
+    padding: 0 20px;
+}
+
+.hd-menu > li > a {
+    font-size: 15px;
+    color: #888888;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 25px;
+    padding: 0px;
+    color: #888888;
+}
+
+.glass {
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
