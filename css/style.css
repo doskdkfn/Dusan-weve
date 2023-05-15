@@ -55,3 +55,45 @@ header > nav {
     margin-left: 15px;
 }
 
+/******************* 웹 배너 영역 **********************/
+
+.banner-b-text > ul > li {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner-b-text > ul > li > p {
+    font-size: 30px;
+}
+
+.c-blue {
+    color: #4584c5;;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.c-change {
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.c-mid {
+    color: #4584c5;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+/******************* 웹 지도 영역 **********************/
+
+#map {
+    display: flex;
+    justify-content: center;
+}
+
+#map > img {
+    width: 1100px;
+    height: 800px;
+    color: #000;
+}
