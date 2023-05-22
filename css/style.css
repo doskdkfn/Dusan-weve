@@ -128,3 +128,14 @@ header > nav {
     font-weight: bold;
 }
 
+/******************* 웹 소개 배너영역 **********************/
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about > h2 {
+    margin-bottom: 20px;
+}
+
