@@ -139,3 +139,8 @@ header > nav {
     margin-bottom: 20px;
 }
 
+/******************* 웹 소개2 배너영역 **********************/
+
+.about2 {
+    text-align: center;
+}
