@@ -144,3 +144,140 @@ header > nav {
 .about2 {
     text-align: center;
 }
+
+/******************* 웹 소개3 배너영역 **********************/
+
+.about3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/******************* 웹 소개 하단 영역 **********************/
+
+#bottom {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/******************* 웹 소개 봇 영역1 **********************/
+
+.bot1 {
+    display: flex;
+}
+
+.bot1:nth-child(3) {
+    margin-right: 45px;
+}
+
+.days {
+    font-size: 35px;
+    color: #fff;
+    background: #4584c5;
+    padding: 22px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.days:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+.bot-text {
+    margin-left: 20px;
+}
+
+.bot-text > h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.bot-text > li {
+    font-size: 13px;
+    color: #888888;
+}
+
+/******************* 웹 소개 푸터 영역 **********************/
+
+#footer-back {
+    background: #f1f1f1;
+    height: 265px;
+    margin-top: 60px;
+}
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 60px;
+}
+
+.f-logo  {
+    margin-right: 85px;
+}
+
+.f-logo > p {
+    font-size: 13px;
+    color: #888;
+    line-height: 22px;
+}
+
+/******************* 웹 소개 푸터 리스트 영역 **********************/
+
+.f-1 {
+    margin-right: 240px;
+    border-left: 1px solid #888888;
+    height: 80px;
+}
+
+.f-1 > li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.f-2 {
+    margin-right: 220px;
+    border-left: 1px solid #888888;
+    height: 80px;
+}
+
+.f-2 > li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.f-3 {
+    border-left: 1px solid #888888;
+    height: 80px;
+}
+
+.f-3 > li {
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+/******************* 웹 소개 푸터 하단 띠 영역 **********************/
+
+.footer-bottom {
+    background: #555;
+}
+
+.footer-bottom > li {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 13px;
+    padding: 15px 0 15px 0;
+}
+
